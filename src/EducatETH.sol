@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity >=0.8.0;
 
-import "./ERC1155.sol";
+import "lib/forge-std/openzeppelin/ERC1155.sol";
 
 /// @title EducatETH - A simple ERC1155 NFT contract
 /// @notice This contract allows the creation of NFTs with the same metadata for all tokens.
